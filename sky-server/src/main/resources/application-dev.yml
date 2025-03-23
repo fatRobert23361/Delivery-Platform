@@ -9,5 +9,5 @@ sky:
   alioss:
     endpoint: oss-eu-central-1.aliyuncs.com
     access-key-id: LTAI5tPhJ6HGme5tV1ssVbR4
-    access-key-secret: s3Q3ZIANDGY58T1eq3be4I68fUbsE7
+    access-key-secret: s3Q3ZIANDGY58T1eq3be4I68fUbsE8
     bucket-name: sky-delivery23361
