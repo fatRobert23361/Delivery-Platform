@@ -37,4 +37,11 @@
         </set>
         where id = #{id}
     </update>
+    <select id="list" parameterType="Dish" resultType="com.sky.entity.Dish">
+        select * from sky_take_out.dish
+        <where>
+            <if test="categoryId != null"> and category_id = #{categoryId}</if>
+            <if test="status != null"> and status = #{status}</if>
+        </where>
+    </select>
 </mapper>

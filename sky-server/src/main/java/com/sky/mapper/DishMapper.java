@@ -55,4 +55,11 @@ public interface DishMapper {
      */
     @AutoFill(value = OperationType.UPDATE)
     void updateById(Dish dish);
+
+    /**
+     * 动态sql查询
+     * @param dish
+     * @return
+     */
+    List<Dish> list(Dish dish);
 }
