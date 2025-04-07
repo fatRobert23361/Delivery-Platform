@@ -20,4 +20,7 @@ public interface UserMapper {
      */
     @Select("select * from sky_take_out.user where openid = #{openid}")
     User getByOpenid(String openid);
+
+    @Select("select * from sky_take_out.user where id = #{userId}")
+    User getById(Long userId);
 }
